@@ -19,8 +19,8 @@ int main(){
     estudiante1.edad = 16;
     estudiante1.promedio = 9.8;
     struct Estudiante estudiante2 = copiarEstudiante(estudiante1);
-    cout << "Nombre: " << estudiante2.nombre << endl;
-    cout << "Edad: " << estudiante2.edad << endl;
-    cout << "Promedio: " << estudiante2.promedio << endl;
+    cout << " copiado de Nombre: " << estudiante2.nombre << endl;
+    cout << " copiado de Edad: " << estudiante2.edad << endl;
+    cout << "copiado de Promedio: " << estudiante2.promedio << endl;
     return 0;
 }
