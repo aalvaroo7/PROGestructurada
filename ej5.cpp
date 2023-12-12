@@ -20,3 +20,6 @@ int main() {
     imprimirEstudiante(estudiante1);
     return 0;
 }
+//he definido el nombre como float porque si no se puede asignar un nombre a un array de tipo char y entonces
+//a la hora de mostrar un nombre pues muestra algo raro como una casa o algo asi
+//entonces cambio el tipo de variable a string y ya se puede asignar un nombre y mostrarlo correctamente
